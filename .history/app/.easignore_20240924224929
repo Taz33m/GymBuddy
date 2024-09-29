@@ -1,0 +1,54 @@
+# VS Code files
+.vscode
+*.sock
+
+# Node modules
+node_modules
+
+# Expo
+.expo
+__generated__
+
+# macOS
+.DS_Store
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Environment variables
+.env
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code socket files
+**/Application Support/**
+
+# Exclude unnecessary directories
+Movies/
+Pictures/
+Music/
+Downloads/
+Documents/
+
+# Exclude any cache directories
+**/Cache*/**
+
+# Exclude large media files
+*.mov
+*.mp4
+*.avi
+*.flv
+*.wmv
+*.dvcc
+
+# Exclude socket files from Cursor directory
+**/Library/Application Support/Cursor/*.sock
+
+# Add this line to your .easignore file
+**/Library/Application Support/Code/*.sock
+
+# Exclude any other large or unnecessary files/directories
+# Add more patterns as needed

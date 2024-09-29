@@ -1,0 +1,28 @@
+# VS Code files
+.vscode
+*.sock
+
+# Node modules
+node_modules
+
+# Expo
+.expo
+__generated__
+
+# macOS
+.DS_Store
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Environment variables
+.env
+
+# TypeScript
+*.tsbuildinfo
+**/Application Support/**
+
+# VS Code socket files
+**/Application Support/Code/*.sock

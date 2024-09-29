@@ -1,0 +1,17 @@
+{
+  "cli": {
+    "version": ">= 3.13.3",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "gradleCommand": ":app:bundleRelease"
+      },
+      "env": {
+        "EAS_BUILD_PREBUILD_TIMEOUT": "300000"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "GymBuddy",
+    "slug": "GymApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tazeem.GymApp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.tazeem.GymApp",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "scheme": "gymapp",
+    "extra": {
+      "eas": {
+        "projectId": "a3f061e5-c1a5-439a-9da4-f6c3337d8ef2"
+      }
+    },
+    "owner": "tazeem",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a3f061e5-c1a5-439a-9da4-f6c3337d8ef2"
+    }
+  }
+}

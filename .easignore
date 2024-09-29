@@ -1,0 +1,18 @@
+node_modules/
+.git/
+.expo/
+web-build/
+*.mov
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.wmv
+**/Mobile Documents/**
+**/Desktop/**
+**/node_modules/**
+**/Library/Containers/**
+**/Library/Caches/**
+**/Library/Containers/com.microsoft.teams2/**
+**/Library/Containers/com.microsoft.teams2/**
+# Exclude user directories
